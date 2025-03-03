@@ -1,0 +1,25 @@
+[project]
+name = "phi-4-instruct-api"
+version = "0.1.0"
+description = "FastAPI implementation of OpenAI-compatible API for Phi-4-mini-instruct model"
+authors = [
+    {name = "Michael Cizmar",email = "michael.cizmar@mcplusa.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn>=0.23.2",
+    "pydantic>=2.4.2",
+    "transformers>=4.35.0",
+    "torch>=2.1.0",
+    "accelerate>=0.23.0",
+    "python-dotenv>=1.0.0"
+]
+
+[tool.poetry.scripts]
+phi4-api = "phi_4_instruct_api.main:start"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
