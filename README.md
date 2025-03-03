@@ -1,7 +1,7 @@
 
 # PHI 4 Instruct API
 
-This project was created to use PHI-4-instruct until LMStudio and Ollama offically support Phi-4-instruct.
+This project was created to use PHI-4-instruct until LMStudio and Ollama offically support Phi-4-instruct.  It creates an OpenAI compliant API wrapping a phi-4-instruct model.
 ## Authors
 
 - [@michaelcizmar](https://www.github.com/michaelcizmar)
